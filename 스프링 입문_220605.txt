@@ -1,0 +1,4 @@
+@ResponseBody는 viewResolver를 거치지 않고 HttpMesaageConverter로 이동
+기본 문자처리는 StringHttpMessageConverter
+기본 객체 처리는 MappingJackson2HttpMessageConverter
+byte 등 처리가 기본으로 등록됨
